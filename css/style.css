@@ -1,0 +1,648 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+section.wrapper{
+	width: 90%;
+	margin: 0 auto;
+}
+
+#home{
+	margin-top: 20px;
+}
+
+header{
+	height: 70px;
+}
+
+header section.wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header div.left{
+	
+}
+
+header div.left h1{}
+header div.left h1 a{
+	font-size: 50px;
+	color: #000;
+}
+
+header div.right{
+	
+}
+
+header div.right ul{
+	display: flex;
+	justify-content: space-between;
+}
+
+header div.right ul li{
+	font-size: 20px;
+	margin-right: 24px;
+}
+header div.right ul li:last-child{
+	margin-right: 0;
+}
+
+header div.right ul li:last-child a{
+	border: 1px solid#000;
+	padding: 8px 20px;
+	background-color:#000;
+	color: #fff;
+}
+
+#home header div.menu{
+	width: 40px;
+	display: none;
+  }
+header div.right ul li:last-child a img{
+	transform: rotate(45deg);
+	vertical-align: middle;
+}
+
+header div.right ul li a{
+	color: #000;
+}
+
+#home section.spotlight{
+	padding: 100px 0;
+	background-image: url("../image/Downloads/image1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#home section.spotlight section.wrapper{} 
+
+#home section.spotlight section.wrapper h1{
+	font-size: 60px;
+	
+	margin-bottom: 30px;
+} 
+
+#home section.spotlight section.wrapper p{
+	font-size: 30px;
+	width: 60%;
+	opacity: .6;
+}
+#home section.spotlight section.wrapper div.one{}
+
+#home section.spotlight section.wrapper div.one ul{
+	margin-top: 50px;
+}
+
+#home section.spotlight section.wrapper div.one ul li a{
+	font-size: 30px;
+	border: 1px solid#000;
+	padding: 10px 10px;
+	background-color: #2b2929;
+	color: #fff;	
+}
+
+#home section.spotlight section.wrapper div.one ul li a img{
+	transform: rotate(45deg);
+	vertical-align: middle;
+}
+
+#about{
+	padding: 50px 0;
+}
+#about section.wrapper{}
+
+#about section.wrapper h1{
+	text-align: center;
+}
+
+#about section.wrapper div.one{}
+
+#about section.wrapper div.one ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}
+
+#about section.wrapper div.one ul li{
+	margin-right: 30px;
+	width: 15%;
+}
+#about section.wrapper div.one ul li:last-child{
+	margin-right: 0;
+}
+
+#about section.wrapper div.one ul li img{
+	width: 100%;
+}
+
+#tag{
+	padding: 50px 0;
+}
+
+#tag .wrapper{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#tag .wrapper div.left{
+	width: 48%;
+}
+
+#tag .wrapper div.left img{
+	width: 100%;
+}
+
+#tag .wrapper div.right{
+	width: 50%;
+}
+
+#tag .wrapper div.right h1{
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+#tag .wrapper div.left h2{
+	font-size: 40px;
+	margin-bottom: 30px;
+	display: none;
+}
+
+#tag .wrapper div.right p{
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 30px;
+	width: 90%;
+	opacity: .6;
+}
+
+
+
+#tag .wrapper div.right ul li{}
+
+#tag .wrapper div.right a{
+	border: 1px solid#000;
+	padding: 15px 30px;
+	background-color: #201e1e;
+	color: #fff;
+}
+
+#tag .wrapper div.right  img{
+	transform: rotate(45deg);
+	vertical-align: middle;
+}
+
+#project{
+	padding: 50px 0;
+	background-color: rgb(233, 249, 249);
+}
+
+#project .wrapper{}
+
+#project .wrapper h1{
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+#project .wrapper div.one{}
+
+#project .wrapper div.one ul{
+	display: flex;
+	justify-content: space-between;
+}
+
+#project .wrapper div.one ul li{}
+
+#project .wrapper div.one ul li img{
+	padding: 5px 5px;
+	border-radius: 60px;
+	background-color:rgb(124, 157, 158) ;
+}
+
+#project .wrapper div.one ul li h3{
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+#project .wrapper div.one ul li p{
+	font-size: 14px;
+	width: 70%;
+}
+
+#product{
+	padding: 30px 0;
+}
+
+#product .wrapper{
+	display: flex;
+	justify-content: space-between;
+}
+
+#product .wrapper div.left h1{
+	font-size: 50px;
+}
+
+#product .wrapper div.right {
+	font-size: 16px;
+	width: 40%;
+}
+#product .wrapper div.right p{
+	font-size: 16px;
+}
+
+#card{}
+
+#card .wrapper{}
+
+#card .wrapper ul{
+ 	display: flex;
+	justify-content: space-between;
+}
+
+#card .wrapper ul li{
+	width: 24%;
+}
+
+#card .wrapper ul li img{
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+#card .wrapper ul li h1{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+#card .wrapper ul li p{
+	font-size: 16px;
+	width: 70%;
+	margin-bottom: 20px;
+}
+
+#card .wrapper ul li h5{
+	font-size: 25px;
+	color:rgb(237, 101, 101);
+}
+
+#box{
+	padding: 50px 0;
+}
+
+#box .wrapper{
+	display: flex;
+	justify-content: space-between;
+}
+
+#box .wrapper div.left{
+	width: 48%;
+	align-items: center;
+}
+
+#box .wrapper div.left h1{
+	font-size: 50px;
+	margin-bottom: 40px;
+}
+
+#box .wrapper div.left p{
+	font-size: 16px;
+	width: 70%;
+	margin-bottom: 40px;
+}
+
+#box .wrapper div.left ul{
+	display: flex;
+}
+
+
+#box .wrapper div.left ul li{
+	margin-right: 40px;
+}
+
+
+#box .wrapper div.left ul li h5{
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+
+#box .wrapper div.left ul li p.one{
+	font-size: 16px;
+	width: 100%;
+}
+
+#box .wrapper div.left  li a{
+	font-size: 20px;
+	color: white;
+	border: 1px solid#000;
+	padding: 10px 10px;
+	background-color: #000;
+}
+
+#box .wrapper div.left li a img{
+	transform: rotate(45deg);
+	vertical-align: middle;
+}
+
+#box .wrapper div.right{
+	width: 48%;
+}
+
+#box .wrapper div.right img {
+	width: 70%;
+}
+#box .wrapper div.left ul{
+	display: none;
+}
+#box .wrapper div.left li a{
+	display: none;
+}
+
+#services{
+	padding: 50px 0;
+	background-color: rgb(230, 246, 246);
+}
+
+header .wrapper{
+	display: flex;
+}
+
+header .wrapper h2{
+	font-size: 60px;
+}
+#services section.spotlight{}
+
+#services section.spotlight section.wrapper{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#services section.wrapper div.left{}
+
+#services section.wrapper div.left h1{
+	font-size: 150px;
+}
+
+#services section.wrapper div.right{}
+
+#services section.wrapper div.right li{}
+
+#services section.wrapper div.right li a{
+	border: 2px solid#000;
+	padding: 8px 9px;
+	color: #fff;
+	background-color: #222121;
+}
+
+
+#services section.wrapper div.right li a img{
+	transform: rotate(45deg);
+	vertical-align: middle;
+}
+
+footer{
+	padding: 50px 0;
+  }
+  footer .items{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+  }
+  footer .items .item{
+	width: 20%;
+  }
+  footer .items .item h2{
+	margin-bottom: 20px;
+  }
+  footer .items .item li{
+	margin-bottom: 15px;
+  }
+  footer .items .item li a{
+	color: #000;
+  }
+  footer .items .item.large{
+	width: 30%;
+  }
+
+  footer .items .item.large h2{
+	font-size: 40px;
+	text-align:right;
+	
+  }
+  
+  footer .items .item.large p{
+	line-height: 30px;
+	opacity: .6;
+	text-align:right;
+  }
+
+  @media all and ( max-width:1280px){
+	
+	  #home section.spotlight section.wrapper h1 {
+		
+	  }
+	  #product .wrapper div.left h1 {
+		font-size: 30px;
+	  }
+	  
+	  #card .wrapper ul li h1 {
+		font-size: 20px;
+	  }
+	  #card .wrapper ul li p{
+		font-size: 16px;
+		width: 90%;
+	  }
+
+	  #services section.wrapper div.left h1 {
+		font-size: 100px;
+	  }
+	  
+  }
+	
+@media all and ( max-width:980px){
+	#home section.spotlight section.wrapper h1{
+		width: 90%;
+	}
+	#about section.wrapper div.one ul li img{
+		width: 100%;
+	}
+	
+	footer .items .item{
+		margin-right: 20px;
+	}
+	footer .items .item.large p {
+		line-height: 20px;
+	}
+	#home section.spotlight section.wrapper p {
+		width: 80%;
+	}
+	footer .items .item.large{
+		width: 50%;
+	  }
+	  footer .items .item{
+		width: 40%;
+		margin-bottom: 20px;
+	  }
+	  #project .wrapper h1{
+		text-align: center;
+	  }	 
+	  #project .wrapper div.one ul li{
+		width: 50%;
+		margin-bottom: 20px;
+	  }
+	  #project .wrapper div.one ul{
+		flex-wrap: wrap;
+		text-align: center;
+	  }
+	  #project .wrapper div.one ul li p{
+		margin: 0 auto;
+		text-align: center;
+	  }
+	  #product .wrapper div.left h1 {
+		margin-bottom: 10px;
+	}
+	#product .wrapper div.right p{
+		text-align: center;
+	}
+	#card .wrapper ul{
+		flex-wrap: wrap;
+	}
+	#card .wrapper ul li{
+		width: 48%;
+	}
+	#card .wrapper ul li img{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	#box .wrapper div.right img{
+		width: 100%;
+	}
+	#box .wrapper div.right ul{
+        display: block;
+		flex-wrap: wrap;
+    }
+   
+    #box .wrapper div.right ul li{
+		width: 48%;
+	}
+   
+    #box .wrapper div.right ul li h5{
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+   
+    #box .wrapper div.right ul li p.one{
+        font-size: 16px;
+    }
+   
+    #box .wrapper div.right ul li a{
+        display: block;
+        font-size: 20px;
+        color: white;
+        border: 1px solid#000;
+        padding: 10px 10px;
+        background-color: #000;
+    }
+    #box .wrapper div.right  li a img{
+        transform: rotate(45deg);
+        vertical-align: middle;
+		width: 20%;
+    }
+
+}
+@media all and ( max-width:768px){
+	#home header section.wrapper div.right ul{
+		display: none;
+	}
+	#home header div.menu{
+	  display: block;
+	}
+	footer .items .item.large p {
+		width: 100%;
+	}
+	#card .wrapper ul li{
+		width: 100%;
+	}
+	#card .wrapper ul li h1{
+		font-size: 20px;
+	}
+	#card .wrapper ul li p{
+		font-size: 16px;
+	}
+	#services section.wrapper div.left h1 {
+		font-size: 70px;
+	}
+	#tag .wrapper{
+		flex-direction: column;
+	}
+	#tag .wrapper div.left{
+		width: 100%;
+	}
+	#tag .wrapper div.right h1{
+		display: none;
+	}
+	#tag .wrapper div.left h2{
+		display: block;
+		text-align: center;
+		font-size: 30px;
+	}
+	#tag .wrapper div.left img{
+		margin-bottom: 30px;
+	}
+	#product .wrapper {
+		flex-direction: column;
+		align-items: center;
+	}
+	#card .wrapper ul{
+		flex-direction: column;
+		align-items: center;
+	}
+	#box .wrapper{
+		flex-direction:column;
+		align-items: center;
+	}
+	#box .wrapper div.left h1{
+		text-align: center;
+	}
+	#box .wrapper div.left p{
+		width: 100%;
+		font-size: 18px;
+		text-align: center;
+	}
+
+	#box .wrapper div.left ul{
+		display: none;
+	}
+	#box .wrapper div.left li a{
+		display: none;
+	}
+	#box .wrapper div.right img{
+		width: 100%;
+	}
+}
+
+@media all and ( max-width:640px){
+	#card .wrapper ul li h1{
+		font-size: 12px;
+	}
+	#card .wrapper ul li p {
+		font-size: 13px;
+		width: 90%;
+	}
+	#services section.wrapper div.left h1{
+		font-size: 40px;
+	}
+	footer .items .item.large{
+		width: 100%;
+	  }
+	  footer .items .item{
+		width: 100%;
+	  }
+	
+}
+@media all and ( max-width:480px){}
+@media all and ( max-width:360px){}
+@media all and ( max-width:320px){}
